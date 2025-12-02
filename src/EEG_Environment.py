@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Dec 14 21:36:47 2020
+Created on Tue Dec 02 15:48:32 2025
 
 """
 import numpy as np
@@ -210,3 +210,4 @@ class Environment:
         reward = reward_dis * 0.5 + reward_inter_intra * 0.33 * 0.1
 
         return reward
+

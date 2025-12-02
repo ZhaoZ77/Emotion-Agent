@@ -17,6 +17,6 @@ This repository contains the official implementation of the paper "Emotion Agent
 - Extract differential entropy features of EEG using a 1-second sliding window
 
 # Training
-- Emotion Agent model definition file: Agent.py
-- Pipeline of the Emotion Agent: rl_utils.py
-- implementation of training: train.py
+- Emotion Agent model definition file: src/Agent.py
+- Pipeline of the Emotion Agent: src/rl_utils.py
+- implementation of training: src/train.py

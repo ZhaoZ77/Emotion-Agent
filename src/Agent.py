@@ -1,3 +1,4 @@
+
 import numpy as np
 import torch
 import torch.nn as nn
@@ -42,6 +43,7 @@ class Critic(nn.Module):
         output = F.relu(self.fc1(output))
         value = F.relu(self.fc2(output))
         return value
+
 
 
 

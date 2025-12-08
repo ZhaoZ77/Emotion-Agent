@@ -227,7 +227,8 @@ class Environment:
             reward_dis = 0.
 
 
-        reward = reward_dis * 0.5 + reward_inter_intra * 0.33 * 0.1
+        reward = reward_dis * 0.5 + reward_inter_intra * 0.5
 
 
         return reward
+

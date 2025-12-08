@@ -38,8 +38,8 @@ device = torch.device("cuda") if torch.cuda.is_available() else torch.device(
     "cpu")
 
 
-actor_lr = 1e-4
-critic_lr = 1e-3
+actor_lr = 3e-3
+critic_lr = 1e-2
 
 # 原总episode数为6300，这里设置为30轮，每轮210个episode（30*210=6300，保持总数量不变）
 train_epoch = 30        # 训练轮数
@@ -78,4 +78,5 @@ for test_id in range(15):
     return_list = rl_utils.train_on_policy_agent_KeyFrame(
         env, agent, train_epoch, episode_num, cluster_centers, cluster_sigma, test_id
     )
+
 

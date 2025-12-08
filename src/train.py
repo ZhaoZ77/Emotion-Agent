@@ -45,7 +45,7 @@ critic_lr = 1e-2
 train_epoch = 30        # 训练轮数
 episode_num = 210       # 每轮训练的episode数量
 
-hidden_dim = 256
+hidden_dim = 128
 gamma = 0.98
 lmbda = 0.95            # GAE
 epochs = 5
@@ -78,5 +78,6 @@ for test_id in range(15):
     return_list = rl_utils.train_on_policy_agent_KeyFrame(
         env, agent, train_epoch, episode_num, cluster_centers, cluster_sigma, test_id
     )
+
 
 

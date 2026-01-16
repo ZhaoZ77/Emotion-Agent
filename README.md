@@ -6,7 +6,7 @@ This repository contains the official implementation of the paper "Emotion Agent
 
 # Installation:
 - Python 3.9.17
-- PyTorch 2.0.1 (CUDA 11.8)
+- PyTorch 1.13.1 (CUDA 11.8)
 - NVIDIA CUDA 11.8
 - NumPy 1.23.5
 - Scikit-learn 1.3.0
